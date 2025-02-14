@@ -1,0 +1,16 @@
+/* Prevent body scroll when modal is open */
+body.modal-open {
+  overflow: hidden;
+  padding-right: 0 !important;
+}
+
+/* Custom transitions */
+.modal.fade.show {
+  opacity: 1;
+  transition: opacity 0.15s linear;
+}
+
+.modal-backdrop.fade.show {
+  opacity: 0.5;
+  transition: opacity 0.15s linear;
+}
